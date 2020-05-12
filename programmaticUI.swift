@@ -6,6 +6,5 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 
     window = UIWindow(frame: windowScene.coordinateSpace.bounds)
     window?.windowScene = windowScene
-    window?.rootViewController
-     = UIViewController()
+    window?.rootViewController = UIViewController()
 }
